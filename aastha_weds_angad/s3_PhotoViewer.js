@@ -42,6 +42,7 @@ var albumBucketName = 'aastha-weds-angad';
 //   Replace this block of code with the sample code located at:
 //   Cognito -- Manage Identity Pools -- [identity_pool_name] -- Sample Code -- JavaScript
 //
+
 // Initialize the Amazon Cognito credentials provider
 AWS.config.region = 'ap-south-1'; // Region
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
