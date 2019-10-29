@@ -43,7 +43,7 @@ var albumBucketName = 'aastha-weds-angad';
 //   Cognito -- Manage Identity Pools -- [identity_pool_name] -- Sample Code -- JavaScript
 //
 // Initialize the Amazon Cognito credentials provider
-AWS.config.region = Regions.AP_SOUTH_1; // Region
+AWS.config.region = 'ap-south-1'; // Region
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
     IdentityPoolId: 'ap-south-1:aff20f2b-1fd7-44e8-9a67-ccc3471d7b85',
 });
