@@ -31,9 +31,71 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+#portfolio_name path:nth-child(1){
+    stroke-width: 20;
+     stroke-dasharray: 920;
+     stroke-dashoffset: 900;
+     animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(2){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(3){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(4){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(5){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(6){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(7){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(8){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(9){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(10){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+#portfolio_name path:nth-child(11){
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: name_anim 2s ease forwards;
+}
+
+@keyframes name_anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
 /*-- top-nav --*/  
 .top-nav {
-    background: #ec407a;
+    background: #00897B;
 }
 .nav > li {
     display: inline-block;
@@ -50,7 +112,7 @@ ul.nav.navbar li a {
     font-family: 'Text Me One', sans-serif;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active{ 
-	color:#ec407a;
+	color:#FBC02D;
 	background:transparent;
 	outline:none;
 } 
@@ -67,7 +129,7 @@ ul.nav.navbar li a:focus{
 .w3ls-hover span::before {
 	content: attr(data-letters);
 	position: absolute;
-	color: #000;
+	color: #F9A825;
 	left: 0;
 	overflow: hidden;
 	white-space: nowrap;
@@ -95,7 +157,7 @@ ul.nav.navbar li a.w3ls-icon:hover {
 /*-- //top-nav --*/
 /*-- banner --*/  
 .video {
-	background:url(../images/cv.jpg)no-repeat;
+	background:url(../video/cv.jpg) no-repeat;
     background-position:0px 0px;
 	text-align: left;
 	min-height: 100%;
