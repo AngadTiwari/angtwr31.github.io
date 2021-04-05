@@ -160,7 +160,7 @@ ul.nav.navbar li a.w3ls-icon:hover {
 	background:url(../video/cv.jpg) no-repeat;
     background-position:0px 0px;
 	text-align: left;
-	min-height: 100%;
+	max-height: 100%;
 	background-size:cover;
 }
 .banner-text {
@@ -195,7 +195,7 @@ width: 100%;
 	padding: 0 !important; 
 }
 .modal-dialog {
-    width: 60%; 
+    width: 68%; 
 	margin:4em auto;
 }
 .modal-content {
@@ -240,7 +240,7 @@ h4.modal-title {
     color: #fff;
 }
 .about h3 span {
-    color: teal;
+    color: hotpink;
 }
 .about h4 {
     font-size: 1.2em;
@@ -249,7 +249,7 @@ h4.modal-title {
 }
 
 .about-left img {
-    border: 5px solid #1dadd3;
+    border: 3px solid hotpink;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
@@ -314,7 +314,7 @@ p {
 .progress {
     height: 20px;
     margin-bottom: 2.2em;
-    background-color: #484848;
+    background-color: gray;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	-o-border-radius: 0;
@@ -322,7 +322,7 @@ p {
     border-radius: 0;
 }
 .progress-bar { 
-    background-color: #b3315d;
+    background-color: lightseagreen;
 }
 .bar-grids h6 {
     font-size: 1em;
@@ -340,7 +340,7 @@ p {
 /*-- //skills --*/
 /*-- experience --*/
 .experience-grids {
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
 }
 .experience-left {
@@ -349,7 +349,7 @@ p {
     background: teal;
     text-align: center;
     padding: 2em 0;
-    border: 0.5px solid #484848;
+    border: 0.5px solid white;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
 	transition: .5s all;
@@ -359,7 +359,7 @@ p {
 .experience-right {
     float: right;
     width: 70%;
-    border: 0.5px solid #484848;
+    border: 0.5px solid white;
 	padding: 1.5em;
 }
 .experience-left h3 {
