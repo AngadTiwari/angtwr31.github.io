@@ -240,7 +240,7 @@ h4.modal-title {
     color: #fff;
 }
 .about h3 span {
-    color: #f3286c;
+    color: teal;
 }
 .about h4 {
     font-size: 1.2em;
@@ -346,10 +346,10 @@ p {
 .experience-left {
     float: left;
     width: 30%;
-    background: #ec407a;
+    background: teal;
     text-align: center;
     padding: 2em 0;
-    border: 2px solid #ec407a;
+    border: 0.5px solid #484848;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
 	transition: .5s all;
@@ -359,7 +359,7 @@ p {
 .experience-right {
     float: right;
     width: 70%;
-    border: 1px solid #ec407a;
+    border: 0.5px solid #484848;
 	padding: 1.5em;
 }
 .experience-left h3 {
@@ -416,7 +416,7 @@ p {
 	width: 100%;
 }
 .gallery-w3ls-hover .view-caption {
-	background-color: rgba(236, 64, 122, 0.85);
+	background-color: rgba(0, 128, 128, 0.85);
 	border: 5px solid #fff;
 	bottom: 0;
 	color: #fff;
@@ -502,7 +502,7 @@ p {
 	display: block;
 	width: 0;
 	height:2px;
-	background:#ec407a;
+	background:white;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -515,7 +515,7 @@ p {
 }
 .styled-input input:focus ~ label, .styled-input input:valid ~ label,.styled-input textarea:focus ~ label ,.styled-input textarea:valid ~ label{
     font-size: 1.1em;
-    color: #ec407a;
+    color: white;
     top: -1.3em;
     -webkit-transition: all 0.125s;
 	-moz-transition: all 0.125s; 
@@ -540,8 +540,8 @@ p {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #ec407a;
-    border: solid 1px #ec407a; 
+    background: teal;
+    border: solid 1px teal; 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
 	-o-border-radius: 3px;
