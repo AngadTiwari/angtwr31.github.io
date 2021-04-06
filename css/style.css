@@ -4,7 +4,11 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+html {
+    height: 100%;
+}
 body{
+    height: 100%;
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #fff;
@@ -95,6 +99,7 @@ body a:hover{
 }
 /*-- top-nav --*/  
 .top-nav {
+    height: 64px;
     background: #00897B;
 }
 .nav > li {
@@ -160,11 +165,11 @@ ul.nav.navbar li a.w3ls-icon:hover {
 	background:url(../video/cv.jpg) no-repeat;
     background-position:0px 0px;
 	text-align: left;
-	max-height: 100%;
+	height: calc(100% - 128px);
 	background-size:cover;
 }
 .banner-text {
-    margin: 22em 0 10em;
+    margin: 12em 0 4em;
     text-align: center;
     background: rgba(0, 0, 0, 0.72);
     display: inline-block;
@@ -374,7 +379,7 @@ p {
     margin-top: 1em;
 }
 .experience-right h4 {
-    font-size: 1.6em;
+    font-size: 1.35em;
     color: #1dadd3;
     margin-bottom: 0.5em;
 	font-weight: 900;
@@ -560,9 +565,9 @@ p {
 /*-- //contact --*/ 
 /*-- footer --*/
 .footer {
-    padding: 2em 0;
+    height: 64px;
     text-align: center;
-    background: #1F1F1F;
+	background-color: rgba(0, 0, 0, 0.85);
 }
 .footer p {
     color: #fff;
