@@ -351,7 +351,7 @@ p {
 .experience-left {
     float: left;
     width: 30%;
-    background: teal;
+    background: rgba(0, 128, 128, 0.6);
     text-align: center;
     padding: 2em 0;
     border: 0.5px solid white;
