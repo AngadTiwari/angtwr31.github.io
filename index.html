@@ -609,8 +609,11 @@
 			<script src="js/bootstrap.js"></script>
 			<script>
 				function send() {
-					var subject = "Hi,\n\nI am " + document.getElementById('name').value + ".\n" + document.getElementById('message').value + ".\n\nThanks!"
-					window.open("mailto:angad.tiwari@hotmail.com?subject=" + document.getElementById('subject').value + "&body="+ encodeURIComponent(subject));
+					var name = document.getElementById('name').value
+					var message = document.getElementById('message').value
+					var subject = document.getElementById('subject').value
+					var body = "Hi,\n\nI am " + name + ".\n" + message + ".\n\nThanks!"
+					window.open("mailto:angad.tiwari@hotmail.com?subject=" + subject + "&body="+ encodeURIComponent(body));
 				}
 			</script>
 			<script>
